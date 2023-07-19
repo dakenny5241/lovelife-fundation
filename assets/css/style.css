@@ -1,0 +1,84 @@
+:root {
+    --primary-color: lightseagreen;
+    --secondary-color:lemoncello;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  header {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #fff;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  .avatar {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .avatar img {
+    width: 100%;
+  }
+  
+  .work {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .app-item {
+    flex: 0 0 200px;
+    margin: 0.5rem;
+    text-align: center;
+  }
+  
+  .app-item img {
+    width: 100%;
+  }
+  
+  .app-item h3 {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .contact {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  @media (max-width: 600px) {
+    .app-item {
+      flex: 0 0 150px;
+    }
+  }
